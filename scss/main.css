@@ -37,7 +37,7 @@
 .header__logo {
   width: 70px;
   height: 43px;
-  background-image: url("../../image/Group 11.png");
+  background-image: url(https://gregory0401.github.io/task_test/image/Group\ 11.png);
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: 60px;
@@ -133,7 +133,7 @@
   border: 1px solid var(--background-four);
   background-color: var(--background-main);
   cursor: pointer;
-  background-image: url(../../image/arrow-black.svg);
+  background-image: url(https://gregory0401.github.io/task_test/image/arrow-black.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -342,7 +342,7 @@
   position: absolute;
   top: 137px;
   right: 279px;
-  background-image: url("../../image/arrow-2-right-long.svg");
+  background-image: url(https://gregory0401.github.io/task_test/image/arrow-2-right-long.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -415,13 +415,13 @@
   position: absolute;
   top: 0px;
   right: -788px;
-  background-image: url("../../image/connect.jpeg");
+  background-image: url(https://gregory0401.github.io/task_test/image/connect.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .connection__form:after {
-    background-image: url("../../image/connect@2x.jpeg");
+    background-image: url(https://gregory0401.github.io/task_test/image/connect@2x.jpeg);
   }
 }
 
@@ -567,7 +567,7 @@
   position: absolute;
   top: 0;
   left: -5px;
-  background-image: url("../../image/Vector.svg");
+  background-image: url(https://gregory0401.github.io/task_test/image/Vector.svg);
   background-repeat: no-repeat;
 }
 
@@ -575,7 +575,7 @@
   position: absolute;
   top: 0;
   left: -8px;
-  background-image: url("../../image/Group (1).svg");
+  background-image: url(https://gregory0401.github.io/task_test/image/Group1.svg);
   background-repeat: no-repeat;
 }
 
@@ -583,30 +583,30 @@
   position: absolute;
   top: 5px;
   left: -8px;
-  background-image: url("../../image/Vector (1).svg");
+  background-image: url(https://gregory0401.github.io/task_test/image/Vector1.svg);
   background-repeat: no-repeat;
 }
 
 .icon--fb {
   width: 20px;
   height: 20px;
-  background-image: url("../../image/facebook.svg");
+  background-image: url(https://gregory0401.github.io/task_test/image/facebook.svg);
   background-repeat: no-repeat;
   fill: currentColor;
 }
 
 .icon--twitter {
-  background-image: url("../../image/twitter.svg");
+  background-image: url(https://gregory0401.github.io/task_test/image/twitter.svg);
   background-repeat: no-repeat;
 }
 
 .icon--linkedin {
-  background-image: url("../../image/Linked In.svg");
+  background-image: url(https://gregory0401.github.io/task_test/image/Linked\ In.svg);
   background-repeat: no-repeat;
 }
 
 .icon--pinterest {
-  background-image: url("../../image/Pinterest.svg");
+  background-image: url(https://gregory0401.github.io/task_test/image/Pinterest.svg);
   background-repeat: no-repeat;
 }
 
