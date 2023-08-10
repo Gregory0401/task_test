@@ -59,6 +59,14 @@
       background-image: url(https://gregory0401.github.io/task_test/image/connect@2x.jpeg);
     }
   }
+  &__form-input_textarea {
+    width: 391px;
+    height: 146px;
+    background-color: var(--background-four);
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 21px;
+  }
 }
 .place_holder {
   z-index: 100;
@@ -96,4 +104,34 @@
 .place_holder {
   width: 200px;
   padding-left: 21px;
+}
+.place_holder_textarea {
+  width: 200px;
+  height: 40px;
+  z-index: 100;
+  left: 10px;
+  cursor: text;
+  position: absolute;
+  top: -128px;
+  left: 28px;
+  width: 100%;
+  display: none;
+  color: lightgrey;
+}
+.place_holder_textarea-message {
+  z-index: 100;
+  left: 10px;
+  cursor: text;
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  width: 100%;
+  display: none;
+  color: lightgrey;
+}
+.place_holder_textarea span {
+  color: red;
+}
+.placeinput textarea:invalid + .place_holder_textarea {
+  display: inline;
 }
