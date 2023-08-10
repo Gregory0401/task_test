@@ -74,11 +74,11 @@
     position: absolute;
     top: 0;
     right: 0;
-    background-image: url("https://gregory0401.github.io/task_test/image/hero.png");
+    background-image: url(https://gregory0401.github.io/task_test/image/hero.png);
     background-size: cover;
     background-repeat: no-repeat;
     @include retina {
-      background-image: url("https://gregory0401.github.io/task_test/image/hero-retina.png");
+      background-image: url(https://gregory0401.github.io/task_test/image/hero-retina.png);
     }
     animation-name: hero_picture;
     animation-duration: 1000ms;

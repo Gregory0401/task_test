@@ -1,5 +1,5 @@
 <p align="left">Individual project</p>
-<h2 align="left">Исспользуемые технологии: HTML/CSS/SASS/BEM/JavaScript</h2>
+<h2 align="left" color="red">Исспользуемые технологии: HTML/CSS/SASS/BEM/JavaScript</h2>
 
 <h1 align="center">Сайт-визитка компании по предоставлению услуг</h1>
 <p align="left">Одностраничный сайт-визитка с полной информацией про компанию</p>
