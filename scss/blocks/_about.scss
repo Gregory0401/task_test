@@ -1,0 +1,52 @@
+.about {
+  box-sizing: border-box;
+  position: relative;
+  background-color: var(--background-second);
+  padding: 30px 70px 30px 100px;
+  margin-bottom: 120px;
+  height: 435px;
+  &__h2 {
+    margin-bottom: 20px;
+    font-family: TT Hoves;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: var(--text-third);
+  }
+  &__info {
+    width: 400px;
+    margin-left: 600px;
+    margin-bottom: 20px;
+  }
+  &__text {
+    margin-bottom: 20px;
+    font-family: TT Hoves;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &__image1 {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+  }
+  &__image2 {
+    position: absolute;
+    top: 325px;
+    left: 100px;
+  }
+  &__image3 {
+    position: absolute;
+    top: 60px;
+    left: 400px;
+  }
+}
+.button.arrow--read:after {
+  top: 333px;
+  right: 324px;
+}

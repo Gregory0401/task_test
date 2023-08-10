@@ -1,0 +1,155 @@
+.footer {
+  width: 1440px;
+  height: 417px;
+  background-color: var(--background-third);
+  &__container {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 58px;
+  }
+  &__items {
+    display: block;
+    position: relativ;
+    margin-bottom: 60px;
+  }
+  &__logo {
+    display: block;
+    width: 145px;
+    height: 94px;
+    margin-right: 99px;
+    background-image: url("/image/Group\ 11\ 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  &__h3 {
+    font-family: TT Hoves;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: var(--background-main);
+    margin-bottom: 25px;
+  }
+  &__item {
+    width: 235px;
+    font-family: TT Hoves;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--background-main);
+    position: relative;
+  }
+
+  &__social {
+    width: 193px;
+    text-align: center;
+  }
+  &__link {
+    text-decoration: none;
+    font-family: TT Hoves;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--background-main);
+    cursor: pointer;
+    position: relativ;
+  }
+  &__link:hover,
+  :focus {
+    color: var(--text-second);
+  }
+  &__social {
+    display: flex;
+  }
+  &__text {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--text-four);
+  }
+  &__text:before {
+    display: block;
+    content: "";
+    width: 1440px;
+    border: 1px solid var(--background-main);
+    margin-bottom: 24px;
+  }
+}
+.footer--contact {
+  margin-bottom: 25px;
+  padding-left: 20px;
+}
+
+.footer--contacts {
+  width: 250px;
+  margin-right: 70px;
+}
+.icon--adress {
+  position: absolute;
+  top: 0;
+  left: -5px;
+  background-image: url("../../image/Vector.svg");
+  background-repeat: no-repeat;
+}
+.icon--tel {
+  position: absolute;
+  top: 0;
+  left: -8px;
+  background-image: url("../../image/Group\ \(1\).svg");
+  background-repeat: no-repeat;
+}
+.icon--mail {
+  position: absolute;
+  top: 5px;
+  left: -8px;
+  background-image: url("../../image/Vector\ \(1\).svg");
+  background-repeat: no-repeat;
+}
+.icon--fb {
+  width: 20px;
+  height: 20px;
+  background-image: url("../../image/facebook.svg");
+  background-repeat: no-repeat;
+  fill: currentColor;
+}
+.icon--twitter {
+  background-image: url("../../image/twitter.svg");
+  background-repeat: no-repeat;
+}
+.icon--linkedin {
+  background-image: url("../../image/Linked\ In.svg");
+  background-repeat: no-repeat;
+}
+.icon--pinterest {
+  background-image: url("../../image/Pinterest.svg");
+  background-repeat: no-repeat;
+}
+.social {
+  margin-right: 40px;
+  cursor: pointer;
+}
+.icon--pinterest:hover,
+:focus {
+  transform: translateY(-5px);
+}
+.icon--linkedin:hover,
+:focus {
+  transform: translateY(-5px);
+}
+.icon--twitter:hover,
+:focus {
+  transform: translateY(-5px);
+}
+.icon--fb:hover,
+:focus {
+  transform: translateY(-5px);
+}

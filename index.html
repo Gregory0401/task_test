@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test task</title>
+    <meta
+      name="description"
+      content="staff training, equipment purchase, advertising"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/sf-pro-display"
+      rel="stylesheet"
+    />
+    <link href="/fonts/TTHoves-Medium.ttf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/scss/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <a href="./index.html" class="header__link"
+          ><div class="header__logo"></div
+        ></a>
+        <nav class="header__navigation">
+          <ul class="items">
+            <li class="header__items-navigation">
+              <a href="#main" class="link color--header">главная</a>
+            </li>
+            <li class="header__items-navigation">
+              <a href="#gallery" class="link color--header">галерея</a>
+            </li>
+            <li class="header__items-navigation">
+              <a href="#projects" class="link color--header">проекты</a>
+            </li>
+            <li class="header__items-navigation">
+              <a href="#sertificate" class="link color--header">сертификаты</a>
+            </li>
+            <li class="header__items-navigation">
+              <a href="#contacts" class="link color--header">контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__container">
+        <section id="main" class="hero">
+          <h1 class="hero__h1">
+            project<br /><span class="hero__span">home</span>
+          </h1>
+          <ul class="hero__items">
+            <li class="hero__item">
+              <button type="button" class="hero__button arrow--left"></button>
+            </li>
+            <li class="hero__item">
+              <button type="button" class="hero__button"></button>
+            </li>
+          </ul>
+          <p class="hero__pagination">
+            01<span class="span--pagination"></span
+            ><span class="span--number">02</span>
+          </p>
+          <button type="button" class="button button--hero">взглянуть</button>
+        </section>
+        <section id="sertificate" class="about element-animation">
+          <h2 class="about__h2">О компании</h2>
+          <div class="about__info">
+            <p class="about__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+            <button type="button" class="button arrow--read">читать</button>
+            <ul class="about__items">
+              <li class="item">
+                <img
+                  srcset="/image/about1@.jpeg 1x, /image/about1@2x.jpeg 2x"
+                  src="/image/about1.jpeg"
+                  alt=""
+                  width="270"
+                  height="265"
+                  class="about__image1"
+                />
+              </li>
+              <li class="item">
+                <img
+                  alt=""
+                  srcset="./image/about3.jpeg 1x, /image/about3@2x.jpeg 2x"
+                  src="/image/about3.jpeg"
+                  width="270"
+                  height="140"
+                  class="about__image2"
+                />
+              </li>
+              <li class="item">
+                <img
+                  alt=""
+                  srcset="/image/about2.jpeg 1x, /image/about2@2x.jpeg 2x"
+                  src="/image/about2.jpeg"
+                  width="270"
+                  height="345"
+                  class="about__image3"
+                />
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="projects" class="tasks">
+          <h2 class="tasks__h2">Основные задачи</h2>
+          <ul class="items">
+            <li class="tasks__item">
+              <p class="tasks__number">1</p>
+              <p class="tasks__description">
+                Создание комфортных условий и повышение качества обслуживания
+                клиентов
+              </p>
+            </li>
+            <li class="tasks__item">
+              <p class="tasks__number">2</p>
+              <p class="tasks__description">
+                Постоянно совершенствовать качество предоставляемых услуг путем
+                обучения персонала, закупки нового оборудования и усиленной
+                рекламы на рынке
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section id="projects" class="projects">
+          <h2 class="projects__h2">Наши проекты</h2>
+          <ul id="gallery" class="projects__items">
+            <li class="projects__item element-animation">
+              <img
+                src="/image/our5.jpeg"
+                alt=""
+                width="570"
+                height="255"
+                class="items__image"
+              />
+            </li>
+            <li class="projects__item element-animation">
+              <img
+                srcset="/image/our.jpeg 1x, /image/our@2x.jpeg 2x"
+                src="/image/our.jpeg"
+                alt=""
+                width="570"
+                height="255"
+                class="items__image"
+              />
+            </li>
+            <li class="projects__item element-animation">
+              <img
+                srcset="/image/our2.jpeg 1x, /image/our2@2x.jpeg 2x"
+                src="/image/our2.jpeg"
+                alt=""
+                width="270"
+                height="255"
+                class="items__image"
+              />
+            </li>
+            <li class="projects__item element-animation">
+              <img
+                srcset="/image/our3.jpeg 1x, /image/our3@2x.jpeg 2x"
+                src="/image/our3.jpeg"
+                alt=""
+                width="470"
+                height="255"
+                class="items__image"
+              />
+            </li>
+            <li class="projects__item element-animation">
+              <img
+                srcset="/image/our4.jpeg 1x, /image/our4@2x.jpeg 2x"
+                src="/image/our4.jpeg"
+                alt=""
+                width="370"
+                height="255"
+                class="items__image"
+              />
+            </li>
+          </ul>
+          <div class="projects__centr">
+            <h3 class="projects__h3">досуговый<br />центр</h3>
+            <button type="button" class="button projects--button">
+              подробнее
+            </button>
+          </div>
+
+          <button type="button" class="button--dark projects--btn">
+            все проекты
+          </button>
+        </section>
+        <section id="contacts" class="connection">
+          <h2 class="connection__h2">Связаться с нами</h2>
+
+          <form class="connection__form element-animation">
+            <label class="placeinput">
+              <input
+                required="1"
+                type="text"
+                id="text"
+                class="connection__form-input"
+              />
+              <div class="place_holder">Имя</div>
+            </label>
+
+            <label class="placeinput">
+              <input
+                required="1"
+                type="text"
+                id="text"
+                class="connection__form-input"
+              />
+              <div class="place_holder">Номер телефона<span>*</span></div>
+            </label>
+
+            <label class="placeinput">
+              <input
+                required="1"
+                type="text"
+                id="text"
+                class="connection__form-input"
+              />
+              <div class="place_holder">E-mail<span>*</span></div>
+            </label>
+
+            <label class="placeinput">
+              <input
+                required="1"
+                type="text"
+                id="text"
+                class="connection__form-input"
+              />
+              <div class="place_holder">Интересующий товар/услуга</div>
+            </label>
+
+            <label class="placeinput">
+              <input
+                required="1"
+                type="text"
+                id="text"
+                class="connection__form-input"
+              />
+              <div class="place_holder">Сообщение<span>*</span></div>
+            </label>
+          </form>
+
+          <p class="connection__form-text">
+            Отправляя заявку вы соглашаетесь с политикой конфиденциальности
+          </p>
+          <button type="submit" class="button--dark">отправить</button>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__logo"></div>
+        <div>
+          <h3 class="footer__h3">Информация</h3>
+          <ul class="footer__items">
+            <li class="footer__item">
+              <a href="#about" class="footer__link">Информация</a>
+            </li>
+            <li class="footer__item">
+              <a href="#main" class="footer__link">Главная</a>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Галерея</a>
+            </li>
+            <li class="footer__item">
+              <a href="#projects" class="footer__link">Проекты</a>
+            </li>
+            <li class="footer__item">
+              <a href="#sertificate" class="footer__link">Сертификаты</a>
+            </li>
+            <li class="footer__item">
+              <a href="#contacts" class="footer__link">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__h3 footer--contacts">Контакты</h3>
+          <ul class="footer__items">
+            <li class="footer__item footer--contact">
+              <svg class="icon--adress" width="16" height="16"></svg>
+              <a href="" class="footer__link">
+                100000, Республика Казахстан, г. Караганда, ул. Телевизионная
+                10</a
+              >
+            </li>
+            <li class="footer__item footer--contact">
+              <svg class="icon--tel" width="16" height="16"></svg>
+              <a href="" class="footer__link"
+                ><span class="footer--icons"></span>+38 (000) 000 00 00</a
+              >
+            </li>
+            <li class="footer__item footer--contact">
+              <svg class="icon--mail" width="16" height="16"></svg>
+              <a href="" class="footer__link"> mail@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__h3">Социальные сети</h3>
+          <ul class="footer__social">
+            <li class="item">
+              <a href="" class="footer__link social">
+                <svg class="icon--fb" width="9" height="19"></svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="footer__link social">
+                <svg class="icon--twitter" width="21" height="16"></svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="footer__link social">
+                <svg class="icon--linkedin" width="20" height="20"></svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="footer__link">
+                <svg class="icon--pinterest" width="14" height="19"></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__text">
+        © 2019 Digital Project. Все права защищены.
+      </div>
+    </footer>
+    <script src="/scroll.js"></script>
+  </body>
+</html>

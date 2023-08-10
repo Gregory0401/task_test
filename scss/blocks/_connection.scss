@@ -1,0 +1,99 @@
+.connection {
+  height: 603px;
+  margin-bottom: 120px;
+  &__h2 {
+    font-family: TT Hoves;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--text-third);
+    margin-bottom: 22px;
+  }
+  &__form {
+    width: 391px;
+    display: block;
+    position: relative;
+  }
+  &__form-input {
+    width: 391px;
+    height: 46px;
+    background-color: var(--background-four);
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 21px;
+  }
+  &__form-textarea {
+    width: 391px;
+    height: 147px;
+    padding-left: 21px;
+    background-color: var(--background-four);
+    border: none;
+    margin-bottom: 21px;
+  }
+  &__form-text {
+    width: 331px;
+    font-family: TT Hoves;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--text);
+    margin-bottom: 21px;
+    margin-left: 40px;
+  }
+  &__form:after {
+    display: block;
+    width: 749px;
+    height: 379px;
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: -788px;
+    background-image: url(../../image/connect.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include retina {
+      background-image: url(../../image/connect@2x.jpeg);
+    }
+  }
+}
+.place_holder {
+  z-index: 100;
+  left: 10px;
+  cursor: text;
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  width: 100%;
+  display: none;
+  color: lightgrey;
+}
+.place_holder-message {
+  z-index: 100;
+  left: 10px;
+  cursor: text;
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  width: 100%;
+  display: none;
+  color: lightgrey;
+}
+.placeinput input:invalid + .place_holder {
+  display: inline;
+}
+
+.placeinput {
+  position: relative;
+  overflow: hidden;
+}
+.place_holder span {
+  color: red;
+}
+.place_holder {
+  width: 200px;
+  padding-left: 21px;
+}

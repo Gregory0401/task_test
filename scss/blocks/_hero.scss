@@ -1,0 +1,104 @@
+.main {
+  background-color: var(--background-main);
+  &__container {
+    width: 1170px;
+    margin: 0 auto;
+  }
+}
+.hero {
+  box-sizing: border-box;
+  position: relative;
+  height: 829px;
+  padding-top: 336px;
+  margin-bottom: 120px;
+  &__h1 {
+    margin-bottom: 90px;
+    font-family: TT Hoves;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--text-third);
+    text-transform: uppercase;
+  }
+  &__span {
+    font-family: TT Hoves;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--text);
+    animation-name: hero_span;
+    animation-duration: 2000ms;
+    animation-timing-function: linear;
+  }
+  &__items {
+    display: flex;
+    margin-bottom: 90px;
+  }
+  &__item:first-child {
+    margin-right: 23px;
+  }
+  &__button {
+    width: 53px;
+    height: 53px;
+    border: 1px solid var(--background-four);
+    background-color: var(--background-main);
+    cursor: pointer;
+    background-image: url(../../image/arrow-black.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__button:hover,
+  :focus {
+    background-color: var(--background-four);
+  }
+  &__pagination {
+    display: flex;
+    font-family: TT Hoves;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--text-third);
+  }
+  &__h1::after {
+    position: relative;
+    display: block;
+    width: 770px;
+    height: 829px;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(../../image/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include retina {
+      background-image: url(../../image/hero-retina.png);
+    }
+    animation-name: hero_picture;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+  }
+}
+.arrow--left {
+  transform: rotate(180deg);
+}
+.span--pagination {
+  display: block;
+  width: 44px;
+  border-bottom: 2px solid var(--line);
+  transform: rotate(-45deg);
+}
+.span--number {
+  margin-left: 23px;
+}
+.button--hero {
+  position: absolute;
+  top: 768px;
+  left: 399px;
+}
