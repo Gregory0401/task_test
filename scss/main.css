@@ -160,7 +160,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background-image: url("../../image/hero.png");
+  background-image: url("https://gregory0401.github.io/task_test/image/hero.png");
   background-size: cover;
   background-repeat: no-repeat;
   animation-name: hero_picture;
@@ -169,7 +169,7 @@
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero__h1::after {
-    background-image: url("../../image/hero-retina.png");
+    background-image: url("https://gregory0401.github.io/task_test/image/hero-retina.png");
   }
 }
 
