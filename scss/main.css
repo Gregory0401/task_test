@@ -190,8 +190,8 @@
 
 .button--hero {
   position: absolute;
-  top: 768px;
-  left: 399px;
+  top: 758px;
+  left: 400px;
 }
 
 .about {
@@ -243,7 +243,7 @@
 }
 
 .button.arrow--read:after {
-  top: 333px;
+  top: 359px;
   right: 324px;
 }
 
@@ -341,7 +341,7 @@
   content: "";
   position: absolute;
   top: 137px;
-  right: 306px;
+  right: 279px;
   background-image: url(../../image/arrow-2-right-long.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -488,7 +488,7 @@
   width: 145px;
   height: 94px;
   margin-right: 99px;
-  background-image: url("/image/Group 11 1.png");
+  background-image: url("./image/Group 11 1.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
